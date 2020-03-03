@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 '''
-Author: Berches Antonela
-
-Laborator 10: Algoritmul PageRank
-
+Google PageRank Algorithm
 '''
 
 import networkx as nx
