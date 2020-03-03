@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 '''
-Author: Berches Antonela
-
-Laborator 8: Tehnici de clustering
-
 DBSCAN clustering algorithm (Density-Based Spatial Clustering of Applications with Noise)
-
 '''
 
 import numpy as np
