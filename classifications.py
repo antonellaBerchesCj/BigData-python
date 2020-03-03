@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-Author: Berches Antonela
-
-Laborator 12: Clasificatori
-
+Classifications
 '''
 import numpy as np
 import matplotlib.pyplot as plt
