@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-Author: Berches Antonela
-
-Laborator 11: Regresie liniara (Simpla)
-
+Liniar regression (simple)
 '''
 
 import numpy as np
