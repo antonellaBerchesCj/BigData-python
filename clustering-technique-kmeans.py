@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 '''
-Author: Berches Antonela
-
-Laborator 8: Tehnici de clustering
-
 K-MEANS clustering algorithm
-
 '''
 
 import numpy as np
