@@ -18,7 +18,6 @@ def create_dict_scores():
         dict_scores = dict(x.rstrip().split('\t') for x in fin)
     return dict_scores
 
-# ex.1
 def get_feeling_score(words_list, start_score):
     '''
     Parse each tweet and check if it exists in sentiment_scores.txt file.
@@ -76,7 +75,6 @@ def get_feeling_from_tweet(start_score):
 
     return score
 
-# ex.2
 def top500_words():
     '''
     Get top 500 most common words from the tweet 
@@ -90,7 +88,6 @@ def top500_words():
     
     return count_dict.most_common(500)
 
-# ex.3
 def missing_words(top500, all_scores):
     '''
     Create a dictionary with top 500 words that cannot be found in sentiment_scores.txt.
@@ -157,7 +154,6 @@ def get_words_score(words):
         fin.write(str(missing_dic) + ' ' + str(len(missing_dic)))
     fin.close()
 
-# ex.4
 def friends_or_money():
     '''
     Get friends_count from each json and place it in positive/negative/neutre dictionary.
