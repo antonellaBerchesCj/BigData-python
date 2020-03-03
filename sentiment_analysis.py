@@ -1,12 +1,5 @@
 #!/usr/bin/python
 
-'''
-Laborator 1: Analiza sentimentelor din tweet-uri
-
-Autor: Antonella Berches
-
-'''
-
 import re
 import os
 import json
